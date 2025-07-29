@@ -1,12 +1,14 @@
 // app/layout.tsx
-import './globals.css';
-
 export const metadata = {
-  title: '1118',
-  description: '1118 Labs marketing site',
+  title: '1118 Site',
+  description: 'Website for 1118 Labs',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
