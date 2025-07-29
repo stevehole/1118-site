@@ -1,3 +1,4 @@
+// app/page.tsx
 export default function Home() {
-  return <main className="text-center p-8 text-xl">Welcome to 1118</main>;
+  return <h1>Hello, world!</h1>;
 }
